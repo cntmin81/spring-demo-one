@@ -7,4 +7,10 @@ public class SoccerCoach implements Coach {
 		return "Spend 10 minutes for passing practice.";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
