@@ -18,6 +18,8 @@
    	
    	<bean id="MyCricketCoach" class="com.luv2code.springdemo.CricketCoach">
    		<property name="fortuneService" ref="MyFortune" />
+   		<property name="emailAddress" value="thebestcoach@google.com"></property>
+   		<property name="team" value="sunrises team"></property>
    	</bean>
 
 </beans>
